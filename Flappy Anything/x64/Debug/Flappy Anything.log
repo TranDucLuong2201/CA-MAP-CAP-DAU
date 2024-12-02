@@ -1,0 +1,20 @@
+﻿  Doge.cpp
+E:\HCMUS\OOP\project\sfml\final project\Flappy Anything\Flappy Anything\Doge.cpp(57,49): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+E:\HCMUS\OOP\project\sfml\final project\Flappy Anything\Flappy Anything\Doge.cpp(80,49): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+  Game.cpp
+E:\HCMUS\OOP\project\sfml\final project\Flappy Anything\Flappy Anything\Game.cpp(120,18): warning C4267: 'initializing': conversion from 'size_t' to 'signed char', possible loss of data
+E:\HCMUS\OOP\project\sfml\final project\Flappy Anything\Flappy Anything\Game.cpp(166,62): warning C4244: 'argument': conversion from 'double' to 'short', possible loss of data
+E:\HCMUS\OOP\project\sfml\final project\Flappy Anything\Flappy Anything\Game.cpp(174,18): warning C4267: 'initializing': conversion from 'size_t' to 'signed char', possible loss of data
+E:\HCMUS\OOP\project\sfml\final project\Flappy Anything\Flappy Anything\Game.cpp(236,18): warning C4267: 'initializing': conversion from 'size_t' to 'signed char', possible loss of data
+E:\HCMUS\OOP\project\sfml\final project\Flappy Anything\Flappy Anything\Game.cpp(282,62): warning C4244: 'argument': conversion from 'double' to 'short', possible loss of data
+  Land.cpp
+  Lib.cpp
+E:\HCMUS\OOP\project\sfml\final project\Flappy Anything\Flappy Anything\Lib.cpp(70,32): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+E:\HCMUS\OOP\project\sfml\final project\Flappy Anything\Flappy Anything\Lib.cpp(71,33): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+  Pipe.cpp
+  Sound.cpp
+  main.cpp
+  Generating Code...
+  Flappy Anything.vcxproj -> E:\HCMUS\OOP\project\sfml\final project\Flappy Anything\x64\Debug\Flappy Anything.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
