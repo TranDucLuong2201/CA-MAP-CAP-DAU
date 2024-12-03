@@ -20,3 +20,7 @@
 - ⏳ 1 Month was developed from Duc Le's source, has been changed and improved from the source. Thanks to the author, the code serves the subject, not for profit.
 
 
+## Demo
+<video controls>
+    <source src="https://github.com/TranDucLuong2201/CA-MAP-CAP-DAU/blob/main/res/gif/flappy_night.gif">
+</video>
