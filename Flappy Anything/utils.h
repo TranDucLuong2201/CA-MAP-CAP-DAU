@@ -2,12 +2,12 @@
 #include <string>
 using namespace std;
 
-static const short int SCREEN_WIDTH = 350;
-static const short int SCREEN_HEIGHT = 625;
-static const short int PIPE_SPACE = 160;
+static const short int SCREEN_WIDTH = 560;
+static const short int SCREEN_HEIGHT = 760;
+static const short int PIPE_SPACE = 240;
 static const short int TOTAL_PIPE = 4;
-static const short int PIPE_DISTANCE = 220;
-static const short int LAND_HEIGHT = 140;
+static const short int PIPE_DISTANCE = 300;
+static const short int LAND_HEIGHT = 98;
 static const short int SHIBA_WIDTH = 50;
 static const short int SHIBA_HEIGHT = 35;
 
@@ -22,7 +22,7 @@ const string HIT_PATH = "../res/sound/sfx_bonk.wav";
 const string SOUND_PATH = "../res/image/sound.png";
 
 // PIPE
-static const string PIPE_PATH = "../res/image/pipe.png";
+static const string PIPE_PATH = "../res/image/piope.png";
 
 // Digits small
 const string ONE_PATH_SMALL = "../res/number/small/1.png";
@@ -55,11 +55,14 @@ const string BEST_SCORE_DATA_FILE = "../res/data/bestScore.txt";
 const string MESSAGE_PATH = "../res/image/message.png";
 
 //Background path
-const string BACKGROUND_PATH = "../res/image/background.png";
-const string BACKGROUND_NIGHT_PATH = "../res/image/background-night.png";
+/*const string BACKGROUND_PATH = "../res/image/background.png";
+const string BACKGROUND_NIGHT_PATH = "../res/image/background-night.png";*/
+const string BACKGROUND_PATH = "../res/image/BACKGROUND-NIGHT_.png";
+const string BACKGROUND_NIGHT_PATH = "../res/image/BACKGROUND_.png";
 
 // Land path
-const string LAND_PATH = "../res/image/land.png";
+const string LAND_PATH = "../res/image/base.png";
+//const string LAND_PATH = "../res/image/lannd.png";
 
 // Resume path
 const string RESUME_PATH = "../res/image/resume.png";
