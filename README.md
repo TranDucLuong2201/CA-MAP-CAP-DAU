@@ -3,10 +3,20 @@
     Flappy Anything  🚀
 </h1>
 <p align="center">22VLTH - <i>Mini project about game C++</i></p>
+<p align="center"><a href="https://github.com/TranDucLuong2201/CA-MAP-CAP-DAU.git"><img width="40%" src="https://github.com/TranDucLuong2201/CA-MAP-CAP-DAU/blob/main/res/image/logo.png?raw=true"></a></p>
 
-# MINI PROJECT: GAME FLAPPY ANYTHING
+## 💡 TEAM: CÁ MẶP CẠP ĐẦU
+| ID        | Full name| Description                |
+| :-------- | :------- | :------------------------- |
+| `22130096`| `Tran Duc Luong` | **Leader** |
+| `22130167`| `Than Thanh` | **Member** |
+| `22130190`| `Phan Chanh Tinh` | **Member** |
 
-### GROUP NAME: Cá mặp cạp đầu
-
+## 💡 About
+- 🔧 A remake of Dong Nguyen's hit game in 2013
+- 🖥️ Version for PC
+<br><br>
+- 📚 Using library SDL
+- ⏳ 1 Month was developed from Duc Le's source, has been changed and improved from the source. Thanks to the author, the code serves the subject, not for profit.
 
 
