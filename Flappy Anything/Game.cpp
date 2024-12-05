@@ -163,7 +163,7 @@ void Game::renderScoreSmall()
 		{
 			image.Load(ZERO_PATH_SMALL, scaleNumberS);
 		}
-		image.Render(260 - image.getWidth() * (len - i - 1) * 0.75 - 5 * (len - i - 1), 268);
+		image.Render(350 - image.getWidth() * (len - i - 1) * 0.75 - 5 * (len - i - 1), 268);
 	}
 	image.free();
 }
@@ -217,7 +217,7 @@ void Game::renderScoreLarge()
 		{
 			image.Load(ZERO_PATH_LARGE, SCALE_VALUE);
 		}
-		image.Render((SCREEN_WIDTH - (image.getWidth() * len + (len - 1) * 10)) / 2 + (i + 30) * i, 100);
+		image.Render((SCREEN_WIDTH - (image.getWidth() * len + (len - 1) * 10)) / 2 + (i + 30) * i, 120);
 	}
 	image.free();
 }
@@ -279,7 +279,7 @@ void Game::renderBestScore()
 		{
 			image.Load(ZERO_PATH_SMALL, scaleNumberS);
 		}
-		image.Render(260 - image.getWidth() * (len - i - 1) * 0.75 - 5 * (len - i - 1), 315);
+		image.Render(350 - image.getWidth() * (len - i - 1) * 0.75 - 5 * (len - i - 1), 320);
 	}
 	image.free();
 
@@ -348,7 +348,7 @@ void Game::lightTheme()
 {
 	LTexture image;
 	image.Load(SHIBA_PATH, SCALE_SHIBA);
-	image.Render(105, 315);
+	image.Render(205, 315);
 	image.free();
 }
 
@@ -356,7 +356,7 @@ void Game::darkTheme()
 {
 	LTexture image;
 	image.Load(SHIBA_DARK_PATH, SCALE_SHIBA);
-	image.Render(105, 315);
+	image.Render(205, 315);
 	image.free();
 }
 
@@ -364,9 +364,9 @@ void Game::nextButton()
 {
 	LTexture image;
 	image.Load(NEXT_RIGHT_PATH, SCALE_VALUE);
-	image.Render(149, 322);
+	image.Render(249, 322);
 	image.Load(NEXT_LEFT_PATH, SCALE_VALUE);
-	image.Render(88, 322);
+	image.Render(188, 322);
 	image.free();
 }
 
@@ -374,7 +374,7 @@ bool Game::changeTheme()
 {
 	int x, y;
 	SDL_GetMouseState(&x, &y);
-	if (((x > 149 && x < 149 + 13) || (x > 88 && x < 88 + 13)) && (y > 322 && y < 322 + 16))
+	if (((x > 249 && x < 249 + 13) || (x > 188 && x < 188 + 13)) && (y > 322 && y < 322 + 16))
 	{
 		return true;
 	}
@@ -405,7 +405,7 @@ void Game::renderMedal()
 	{
 		image.Load(HONOR_PATH, scaleNumberS);
 	}
-	image.Render(82, 275);
+	image.Render(188, 275);
 
 	image.free();
 }

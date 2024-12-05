@@ -17,9 +17,10 @@ const double DEFAULT_SCALE_VALUE = 0;
 const double SCALE_SHIBA = 0.8;
 
 // MUSIC
-const string BREATH_PATH = "../res/sound/sfx_breath.wav";
+const string BREATH_PATH = "../res/sound/sfx_breath.mp3";
 const string HIT_PATH = "../res/sound/sfx_bonk.wav";
 const string SOUND_PATH = "../res/image/sound.png";
+const string SOUND_GROUND_PATH = "../res/sound/background_sound.mp3";
 
 // PIPE
 static const string PIPE_PATH = "../res/image/piope.png";

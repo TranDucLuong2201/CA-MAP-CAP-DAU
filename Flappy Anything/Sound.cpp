@@ -8,6 +8,7 @@ bool Sound::init()
     string breath_path = BREATH_PATH;
     string hit_path = HIT_PATH;
     string sound_path = SOUND_PATH;
+    string ground_path = SOUND_GROUND_PATH;
 
     bool success = true;
 
@@ -35,6 +36,13 @@ bool Sound::init()
         if (hit == NULL)
         {
             printf("Failed to load chord! SDL_mixer Error: %s\n", Mix_GetError());
+            success = false;
+        }
+
+        backgroundMusic = Mix_LoadMUS(ground_path.c_str());
+        if (backgroundMusic == nullptr)
+        {
+            printf("Failed to load background music! SDL_mixer Error: %s\n", Mix_GetError());
             success = false;
         }
 
@@ -101,4 +109,20 @@ bool Sound::checkSound()
         return true;
     }
     return false;
+}
+
+void Sound::playGroundSound()
+{
+    if (backgroundMusic != NULL && Mix_PlayingMusic() == 0)
+    {
+        Mix_PlayMusic(backgroundMusic, -1);
+    }
+}
+
+void Sound::stopGroundSound()
+{
+    if (Mix_PlayingMusic() != 0)
+    {
+        Mix_HaltMusic();
+    }
 }

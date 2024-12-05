@@ -22,13 +22,19 @@ public:
 
     bool checkSound();
 
+    void playGroundSound();
+
+    void stopGroundSound();
+
 private:
-    const short int POS_X = 107;
+    const short int POS_X = 210;
     const short int POS_Y = 267;
     bool isPlay = 0;
-    Mix_Chunk* breath = NULL;
-    Mix_Chunk* hit = NULL;
-    Mix_Chunk* drop = NULL;
+    Mix_Chunk* breath = nullptr;
+    Mix_Chunk* hit = nullptr;
+    Mix_Chunk* drop = nullptr;
+    Mix_Music* backgroundMusic = nullptr;
+
     SDL_Rect Mute;
     SDL_Rect Active;
 };

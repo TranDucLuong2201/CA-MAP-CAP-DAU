@@ -5,6 +5,14 @@
 <p align="center">22VLTH - <i>Mini project about game C++</i></p>
 <p align="center"><a href="https://github.com/TranDucLuong2201/CA-MAP-CAP-DAU.git"><img width="40%" src="https://github.com/TranDucLuong2201/CA-MAP-CAP-DAU/blob/main/res/image/logo.png?raw=true"></a></p>
 
+
+## Acknowledgements
+    
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+
 ## 💡 TEAM: CÁ MẶP CẠP ĐẦU
 | ID        | Full name| Description                |
 | :-------- | :------- | :------------------------- |
@@ -21,6 +29,11 @@
 
 
 ## Demo
-<video controls>
-    <source src="https://github.com/TranDucLuong2201/CA-MAP-CAP-DAU/blob/main/res/gif/flappy_night.gif">
-</video>
+<h2 align="center">
+    <img src="res/gif/flappy_night.gif" alt="Demo" width="300" height="400">
+    <p align="center"><i>Demo dark mode</i></p>
+</h2>
+
+## Draw UML
+
+<p align="center"><a href="https://github.com/TranDucLuong2201/CA-MAP-CAP-DAU.git"><img width="40%" src="https://github.com/TranDucLuong2201/CA-MAP-CAP-DAU/blob/main/res/image/logo.png?raw=true"></a></p>

@@ -6,8 +6,8 @@
 #include <SDL_image.h>
 #include <SDL_ttf.h>
 
-const short int FPS = 60;
-const short int frameDelay = 1000 / FPS;
+const short int FPS = 90;
+const short int frameDelay = 900 / FPS;
 
 using namespace std;
 
@@ -23,7 +23,7 @@ int main(int argc, char** argv)  // Fixed main function signature
 
     while (!g.isQuit()) {
         frameStart = SDL_GetTicks();
-
+        g.sound.playGroundSound();
         if (g.isDie()) {
             if (isMenu) {
                 g.sound.playHit();
@@ -109,6 +109,8 @@ int main(int argc, char** argv)  // Fixed main function signature
                     }
                     else if (g.sound.checkSound()) {
                         isSound = abs(1 - isSound);
+                        if (isSound == 0) g.sound.stopGroundSound();
+                        if (isSound == 1) g.sound.playGroundSound();
                     }
                     else if (g.changeTheme()) {
                         isDark = abs(1 - isDark);
