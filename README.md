@@ -36,7 +36,7 @@ Flappy Bird, the famous Vietnamese mobile game developed by Nguyen Ha Dong in 20
  - [Github Do Thanh Dat](https://github.com/Ducanger)
 
 # How to play
-<h2 align="center"> <img src="res/gif/flappy_night.gif" alt="Demo" width="300" height="400"> <p align="center"></p>
+<h2 align="center"> <img src="assets/flappy_night.gif" alt="Demo" width="300" height="400"> <p align="center"></p>
 <p align="center"> <b>Click mouse</b> or press <b>SPACE/UP</b> key to play.<br> Press <b>ESC</b> to pause. </p></h2>
 
 ## Draw UML
