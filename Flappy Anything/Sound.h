@@ -28,7 +28,7 @@ public:
 
 private:
     const short int POS_X = 210;
-    const short int POS_Y = 267;
+    const short int POS_Y = 460;
     bool isPlay = 0;
     Mix_Chunk* breath = nullptr;
     Mix_Chunk* hit = nullptr;

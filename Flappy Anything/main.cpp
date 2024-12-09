@@ -5,6 +5,7 @@
 #include <SDL.h>
 #include <SDL_image.h>
 #include <SDL_ttf.h>
+#include <SDL_mixer.h> // Thêm thư viện SDL_mixer
 
 const short int FPS = 90;
 const short int frameDelay = 900 / FPS;
@@ -19,11 +20,12 @@ int main(int argc, char** argv)  // Fixed main function signature
     bool isMenu = 0;
     bool isPause = 0;
     bool isSound = 1;
-    bool isDark = 0;
+    short mode = 0;
+    short pet = 0;
 
     while (!g.isQuit()) {
         frameStart = SDL_GetTicks();
-        g.sound.playGroundSound();
+        if (isSound) g.sound.playGroundSound();
         if (g.isDie()) {
             if (isMenu) {
                 g.sound.playHit();
@@ -38,8 +40,10 @@ int main(int argc, char** argv)  // Fixed main function signature
                     }
                     g.userInput.Type = Game::input::NONE;
                 }
-                if (!isDark) g.renderBackground();
-                else g.renderBackgroundNight();
+                if (!mode) g.renderBackground();
+                else if(mode == 1) g.renderBackgroundNight();
+                else if(mode == 2) g.renderBackgroundSnow();
+				else mode = 0;
                 g.pipe.render();
                 g.land.render();
                 if (isMenu) {
@@ -53,7 +57,7 @@ int main(int argc, char** argv)  // Fixed main function signature
                 }
                 else {
                     g.pipe.init();
-                    g.shiba.init(isDark);
+                    g.shiba.init(mode);
                     g.shiba.render();
                     g.renderMessage();
                     if (g.userInput.Type == Game::input::PLAY) {
@@ -81,8 +85,10 @@ int main(int argc, char** argv)  // Fixed main function signature
                 g.userInput.Type = Game::input::NONE;
             }
 
-            if (!isDark) g.renderBackground();
-            else g.renderBackgroundNight();
+            if (!mode) g.renderBackground();
+            else if (mode == 1) g.renderBackgroundNight();
+            else if (mode == 2) g.renderBackgroundSnow();
+            else mode = 0;
             g.pipe.render();
             g.land.render();
             g.shiba.render();
@@ -101,8 +107,12 @@ int main(int argc, char** argv)  // Fixed main function signature
                 g.renderBestScore();
                 g.replay();
                 g.sound.renderSound();
-                if (!isDark) g.lightTheme(); else g.darkTheme();
+                if (!mode) g.lightTheme(); else if (mode == 1) g.darkTheme();
+				else if (mode == 2) g.noelTheme();
+				else mode = 0;
+				g.iconPet(pet);
                 g.nextButton();
+                g.nextPets();
                 if (g.userInput.Type == Game::input::PLAY) {
                     if (g.checkReplay()) {
                         isPause = 0;
@@ -113,8 +123,12 @@ int main(int argc, char** argv)  // Fixed main function signature
                         if (isSound == 1) g.sound.playGroundSound();
                     }
                     else if (g.changeTheme()) {
-                        isDark = abs(1 - isDark);
-                        g.shiba.init(isDark);
+                        mode += 1;
+					}
+                    else if (g.changePet()) {
+						if (pet > 8) pet = 0;
+                        pet += 1;
+                        g.shiba.init(pet);
                     }
                     g.userInput.Type = Game::input::NONE;
                 }

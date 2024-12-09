@@ -2,20 +2,31 @@
 #include <stdio.h>
 #include <iostream>
 
-bool Doge::init(bool isDark)
+bool Doge::init(short pet)
 {
-    string shiba_path = SHIBA_PATH;
-    if (isDark) shiba_path = SHIBA_DARK_PATH;
-    if (saved_path == shiba_path)
+    const int NUM_CHARACTERS = 9;
+    const string character_paths[NUM_CHARACTERS] = {
+        BEE_PATH, FISH_PATH, DUCK_PATH,
+        FROGE_PATH, BIRD_PATH, START_PATH,
+        MONSTER_PATH,VIRUS_PATH,SHIBA_PATH
+    };
+
+    if (pet < 0 || pet >= NUM_CHARACTERS) {
+        std::cerr << "Invalid character selection." << std::endl;
+        return false;
+    }
+
+    string selected_path = character_paths[pet];
+    if (saved_path == selected_path)
     {
         posDoge.getPos(75, SCREEN_HEIGHT / 2 - 10);
         ahead = 0;
         angle = 0;
     }
-    if (isNULL() || saved_path != shiba_path)
+    if (isNULL() || saved_path != selected_path)
     {
-        saved_path = shiba_path;
-        if (Load(shiba_path.c_str(), 1))
+        saved_path = selected_path;
+        if (Load(selected_path.c_str(), 1))
         {
             return true;
         }
@@ -23,7 +34,6 @@ bool Doge::init(bool isDark)
         {
             return false;
         }
-
     }
     return false;
 }

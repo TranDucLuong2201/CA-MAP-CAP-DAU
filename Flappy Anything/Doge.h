@@ -8,7 +8,7 @@ using namespace std;
 class Doge :LTexture
 {
 public:
-    bool init(bool isDark);
+    bool init(short isDark);
 
     void render();
 

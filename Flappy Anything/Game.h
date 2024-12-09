@@ -68,6 +68,8 @@ public:
 
     void renderBackgroundNight();
 
+	void renderBackgroundSnow();
+
     void renderLand();
 
     void resume();
@@ -80,9 +82,17 @@ public:
 
     void darkTheme();
 
+	void noelTheme();
+
+	void iconPet(short pet);
+
     void nextButton();
 
+	void nextPets();
+
     bool changeTheme();
+
+	bool changePet();
 
     void renderGameOver();
 
