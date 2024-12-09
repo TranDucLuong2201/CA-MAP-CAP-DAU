@@ -13,6 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\backgrounds">
+      <UniqueIdentifier>{c4446868-b831-4c1d-9ea5-5a0931ee21ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\button">
+      <UniqueIdentifier>{df5c956c-ec84-4a70-bf24-2a39e8a6728b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\pets">
+      <UniqueIdentifier>{8179f246-1d5b-4237-8e9d-27ab94332c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\tabs">
+      <UniqueIdentifier>{60127714-020c-4165-a058-c44f7e6ff2d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sounds">
+      <UniqueIdentifier>{bfbed5e3-fefb-4b27-ad4c-68365f7a207d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\medals">
+      <UniqueIdentifier>{d23e9111-f1d8-42ed-adf2-2fdb75fb4ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\number_small">
+      <UniqueIdentifier>{57cb9e89-9705-45d9-82a6-61f488b61e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\number_large">
+      <UniqueIdentifier>{6454599f-65b4-4e23-be95-753aa96ea4d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -61,8 +85,180 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\res\image\background.png">
-      <Filter>Resource Files</Filter>
+    <Image Include="assets\base_DM.png">
+      <Filter>Resource Files\backgrounds</Filter>
     </Image>
+    <Image Include="assets\base_LM.png">
+      <Filter>Resource Files\backgrounds</Filter>
+    </Image>
+    <Image Include="assets\base_NM.png">
+      <Filter>Resource Files\backgrounds</Filter>
+    </Image>
+    <Image Include="assets\dark_mode.png">
+      <Filter>Resource Files\backgrounds</Filter>
+    </Image>
+    <Image Include="assets\light_mode.png">
+      <Filter>Resource Files\backgrounds</Filter>
+    </Image>
+    <Image Include="assets\snow_mode.jpg">
+      <Filter>Resource Files\backgrounds</Filter>
+    </Image>
+    <Image Include="assets\bee.png">
+      <Filter>Resource Files\pets</Filter>
+    </Image>
+    <Image Include="assets\bird.png">
+      <Filter>Resource Files\pets</Filter>
+    </Image>
+    <Image Include="assets\duck.png">
+      <Filter>Resource Files\pets</Filter>
+    </Image>
+    <Image Include="assets\fish.png">
+      <Filter>Resource Files\pets</Filter>
+    </Image>
+    <Image Include="assets\froge.png">
+      <Filter>Resource Files\pets</Filter>
+    </Image>
+    <Image Include="assets\monster.png">
+      <Filter>Resource Files\pets</Filter>
+    </Image>
+    <Image Include="assets\shiba.png">
+      <Filter>Resource Files\pets</Filter>
+    </Image>
+    <Image Include="assets\start.png">
+      <Filter>Resource Files\pets</Filter>
+    </Image>
+    <Image Include="assets\virus.png">
+      <Filter>Resource Files\pets</Filter>
+    </Image>
+    <Image Include="assets\gameover_NM.png">
+      <Filter>Resource Files\tabs</Filter>
+    </Image>
+    <Image Include="assets\message.png">
+      <Filter>Resource Files\tabs</Filter>
+    </Image>
+    <Image Include="assets\pauseTab_NM.png">
+      <Filter>Resource Files\tabs</Filter>
+    </Image>
+    <Image Include="assets\0.png">
+      <Filter>Resource Files\number_small</Filter>
+    </Image>
+    <Image Include="assets\1.png">
+      <Filter>Resource Files\number_small</Filter>
+    </Image>
+    <Image Include="assets\2.png">
+      <Filter>Resource Files\number_small</Filter>
+    </Image>
+    <Image Include="assets\3.png">
+      <Filter>Resource Files\number_small</Filter>
+    </Image>
+    <Image Include="assets\4.png">
+      <Filter>Resource Files\number_small</Filter>
+    </Image>
+    <Image Include="assets\5.png">
+      <Filter>Resource Files\number_small</Filter>
+    </Image>
+    <Image Include="assets\6.png">
+      <Filter>Resource Files\number_small</Filter>
+    </Image>
+    <Image Include="assets\7.png">
+      <Filter>Resource Files\number_small</Filter>
+    </Image>
+    <Image Include="assets\8.png">
+      <Filter>Resource Files\number_small</Filter>
+    </Image>
+    <Image Include="assets\9.png">
+      <Filter>Resource Files\number_small</Filter>
+    </Image>
+    <Image Include="assets\0s.png">
+      <Filter>Resource Files\number_large</Filter>
+    </Image>
+    <Image Include="assets\1s.png">
+      <Filter>Resource Files\number_large</Filter>
+    </Image>
+    <Image Include="assets\2s.png">
+      <Filter>Resource Files\number_large</Filter>
+    </Image>
+    <Image Include="assets\3s.png">
+      <Filter>Resource Files\number_large</Filter>
+    </Image>
+    <Image Include="assets\4s.png">
+      <Filter>Resource Files\number_large</Filter>
+    </Image>
+    <Image Include="assets\5s.png">
+      <Filter>Resource Files\number_large</Filter>
+    </Image>
+    <Image Include="assets\6s.png">
+      <Filter>Resource Files\number_large</Filter>
+    </Image>
+    <Image Include="assets\7s.png">
+      <Filter>Resource Files\number_large</Filter>
+    </Image>
+    <Image Include="assets\8s.png">
+      <Filter>Resource Files\number_large</Filter>
+    </Image>
+    <Image Include="assets\9s.png">
+      <Filter>Resource Files\number_large</Filter>
+    </Image>
+    <Image Include="assets\gold.png">
+      <Filter>Resource Files\medals</Filter>
+    </Image>
+    <Image Include="assets\honor.png">
+      <Filter>Resource Files\medals</Filter>
+    </Image>
+    <Image Include="assets\silver.png">
+      <Filter>Resource Files\medals</Filter>
+    </Image>
+    <Image Include="assets\moon.png">
+      <Filter>Resource Files\button</Filter>
+    </Image>
+    <Image Include="assets\music.png">
+      <Filter>Resource Files\button</Filter>
+    </Image>
+    <Image Include="assets\nextLeft.png">
+      <Filter>Resource Files\button</Filter>
+    </Image>
+    <Image Include="assets\nextRight.png">
+      <Filter>Resource Files\button</Filter>
+    </Image>
+    <Image Include="assets\noel.png">
+      <Filter>Resource Files\button</Filter>
+    </Image>
+    <Image Include="assets\pause.png">
+      <Filter>Resource Files\button</Filter>
+    </Image>
+    <Image Include="assets\replay.png">
+      <Filter>Resource Files\button</Filter>
+    </Image>
+    <Image Include="assets\resume.png">
+      <Filter>Resource Files\button</Filter>
+    </Image>
+    <Image Include="assets\sound.png">
+      <Filter>Resource Files\button</Filter>
+    </Image>
+    <Image Include="assets\sun.png">
+      <Filter>Resource Files\button</Filter>
+    </Image>
+    <Image Include="assets\pipe.png">
+      <Filter>Resource Files\backgrounds</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="assets\background_sound.mp3">
+      <Filter>Resource Files\sounds</Filter>
+    </Media>
+    <Media Include="assets\sfx_bonk.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </Media>
+    <Media Include="assets\sfx_breath.mp3">
+      <Filter>Resource Files\sounds</Filter>
+    </Media>
+    <Media Include="assets\tinhtu.mp3">
+      <Filter>Resource Files\sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\bestScore.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

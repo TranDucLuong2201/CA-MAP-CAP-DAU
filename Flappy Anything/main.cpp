@@ -7,8 +7,8 @@
 #include <SDL_ttf.h>
 #include <SDL_mixer.h> // Thêm thư viện SDL_mixer
 
-const short int FPS = 90;
-const short int frameDelay = 900 / FPS;
+const short int FPS = 120;
+short int frameDelay = 400 / FPS; // Start with a faster initial speed
 
 using namespace std;
 
@@ -22,10 +22,12 @@ int main(int argc, char** argv)  // Fixed main function signature
     bool isSound = 1;
     short mode = 0;
     short pet = 0;
+    Uint32 lastSpeedIncrease = SDL_GetTicks();
+    Uint32 lastMapChange = SDL_GetTicks();
 
     while (!g.isQuit()) {
         frameStart = SDL_GetTicks();
-        if (isSound) g.sound.playGroundSound();
+        if (isSound) g.sound.playGroundSound(mode);
         if (g.isDie()) {
             if (isMenu) {
                 g.sound.playHit();
@@ -41,11 +43,11 @@ int main(int argc, char** argv)  // Fixed main function signature
                     g.userInput.Type = Game::input::NONE;
                 }
                 if (!mode) g.renderBackground();
-                else if(mode == 1) g.renderBackgroundNight();
-                else if(mode == 2) g.renderBackgroundSnow();
-				else mode = 0;
+                else if (mode == 1) g.renderBackgroundNight();
+                else if (mode == 2) g.renderBackgroundSnow();
+                else mode = 0;
                 g.pipe.render();
-                g.land.render();
+                g.renderLand(mode); // Render land based on the current mode
                 if (isMenu) {
                     g.shiba.render();
                     g.shiba.fall();
@@ -90,7 +92,7 @@ int main(int argc, char** argv)  // Fixed main function signature
             else if (mode == 2) g.renderBackgroundSnow();
             else mode = 0;
             g.pipe.render();
-            g.land.render();
+            g.renderLand(mode); // Render land based on the current mode
             g.shiba.render();
             g.renderScoreLarge();
 
@@ -108,11 +110,12 @@ int main(int argc, char** argv)  // Fixed main function signature
                 g.replay();
                 g.sound.renderSound();
                 if (!mode) g.lightTheme(); else if (mode == 1) g.darkTheme();
-				else if (mode == 2) g.noelTheme();
-				else mode = 0;
-				g.iconPet(pet);
+                else if (mode == 2) g.noelTheme();
+                else mode = 0;
+                g.iconPet(pet);
                 g.nextButton();
                 g.nextPets();
+                g.nextMusic();
                 if (g.userInput.Type == Game::input::PLAY) {
                     if (g.checkReplay()) {
                         isPause = 0;
@@ -120,20 +123,34 @@ int main(int argc, char** argv)  // Fixed main function signature
                     else if (g.sound.checkSound()) {
                         isSound = abs(1 - isSound);
                         if (isSound == 0) g.sound.stopGroundSound();
-                        if (isSound == 1) g.sound.playGroundSound();
+                        if (isSound == 1) g.sound.playGroundSound(mode);
                     }
                     else if (g.changeTheme()) {
-                        mode += 1;
-					}
+                        mode = (mode + 1) % 3; // Cycle through 0, 1, 2
+                    }
                     else if (g.changePet()) {
-						if (pet > 8) pet = 0;
-                        pet += 1;
+                        pet = (pet + 1) % 9; // Cycle through 0 to 8
                         g.shiba.init(pet);
+                    }
+                    else if (g.changeMusic()) {
+                        g.sound.nextMusicTrack();
                     }
                     g.userInput.Type = Game::input::NONE;
                 }
             }
             g.display();
+        }
+
+        // Double game speed every 5 seconds
+        if (SDL_GetTicks() - lastSpeedIncrease >= 5000) {
+            frameDelay = max(1, frameDelay / 2); // Halve the frame delay to double the speed
+            lastSpeedIncrease = SDL_GetTicks();
+        }
+
+        // Change map every 20 seconds
+        if (SDL_GetTicks() - lastMapChange >= 20000) {
+            mode = (mode + 1) % 3; // Cycle through 0, 1, 2
+            lastMapChange = SDL_GetTicks();
         }
 
         // Limit FPS

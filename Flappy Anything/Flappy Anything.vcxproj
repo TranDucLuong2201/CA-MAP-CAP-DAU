@@ -151,7 +151,67 @@
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\res\image\background.png" />
+    <Image Include="assets\0.png" />
+    <Image Include="assets\0s.png" />
+    <Image Include="assets\1.png" />
+    <Image Include="assets\1s.png" />
+    <Image Include="assets\2.png" />
+    <Image Include="assets\2s.png" />
+    <Image Include="assets\3.png" />
+    <Image Include="assets\3s.png" />
+    <Image Include="assets\4.png" />
+    <Image Include="assets\4s.png" />
+    <Image Include="assets\5.png" />
+    <Image Include="assets\5s.png" />
+    <Image Include="assets\6.png" />
+    <Image Include="assets\6s.png" />
+    <Image Include="assets\7.png" />
+    <Image Include="assets\7s.png" />
+    <Image Include="assets\8.png" />
+    <Image Include="assets\8s.png" />
+    <Image Include="assets\9.png" />
+    <Image Include="assets\9s.png" />
+    <Image Include="assets\base_DM.png" />
+    <Image Include="assets\base_LM.png" />
+    <Image Include="assets\base_NM.png" />
+    <Image Include="assets\bee.png" />
+    <Image Include="assets\bird.png" />
+    <Image Include="assets\dark_mode.png" />
+    <Image Include="assets\duck.png" />
+    <Image Include="assets\fish.png" />
+    <Image Include="assets\froge.png" />
+    <Image Include="assets\gameover_NM.png" />
+    <Image Include="assets\gold.png" />
+    <Image Include="assets\honor.png" />
+    <Image Include="assets\light_mode.png" />
+    <Image Include="assets\message.png" />
+    <Image Include="assets\monster.png" />
+    <Image Include="assets\moon.png" />
+    <Image Include="assets\music.png" />
+    <Image Include="assets\nextLeft.png" />
+    <Image Include="assets\nextRight.png" />
+    <Image Include="assets\noel.png" />
+    <Image Include="assets\pause.png" />
+    <Image Include="assets\pauseTab_NM.png" />
+    <Image Include="assets\pipe.png" />
+    <Image Include="assets\replay.png" />
+    <Image Include="assets\resume.png" />
+    <Image Include="assets\shiba.png" />
+    <Image Include="assets\silver.png" />
+    <Image Include="assets\snow_mode.jpg" />
+    <Image Include="assets\sound.png" />
+    <Image Include="assets\start.png" />
+    <Image Include="assets\sun.png" />
+    <Image Include="assets\virus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="assets\background_sound.mp3" />
+    <Media Include="assets\sfx_bonk.wav" />
+    <Media Include="assets\sfx_breath.mp3" />
+    <Media Include="assets\tinhtu.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\bestScore.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

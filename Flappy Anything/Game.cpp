@@ -446,7 +446,6 @@ bool Game::changePet()
 	return false;
 }
 
-
 bool Game::changeTheme()
 {
 	int x, y;
@@ -458,7 +457,49 @@ bool Game::changeTheme()
 	return false;
 }
 
+bool Game::changeMusic()
+{
+	int x, y;
+	SDL_GetMouseState(&x, &y);
+	if (((x > 298 && x < 298 + 13) || (x > 369 && x < 369 + 13)) && (y > 460 && y < 460 + 16))
+	{
+		return true;
+	}
+	return false;
+}
 
+void Game::nextMusic()
+{
+	LTexture image;
+	image.Load(NEXT_RIGHT_PATH, SCALE_VALUE);
+	image.Render(369, 460);
+	image.Load(NEXT_LEFT_PATH, SCALE_VALUE);
+	image.Render(298, 460);
+	image.free();
+	image.Load(MUSIC_PATH, SCALE_VALUE);
+	image.Render(315, 450);
+}
+
+void Game::renderLand(short mode)
+{
+	LTexture image;
+	switch (mode) {
+	case 0:
+		image.Load(LAND_PATH, SCALE_VALUE);
+		break;
+	case 1:
+		image.Load(LAND_DARK_PATH, SCALE_VALUE);
+		break;
+	case 2:
+		image.Load(LAND_NOEL_PATH, SCALE_VALUE);
+		break;
+	default:
+		image.Load(LAND_PATH, SCALE_VALUE);
+		break;
+	}
+	image.Render((SCREEN_WIDTH - image.getWidth()) / 2, SCREEN_HEIGHT - image.getHeight());
+	image.free();
+}
 
 void Game::renderGameOver()
 {

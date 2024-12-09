@@ -17,85 +17,90 @@ const double DEFAULT_SCALE_VALUE = 0;
 const double SCALE_SHIBA = 0.8;
 
 // number folder small
-const string ONE_PATH_SMALL = "../res/number/small/1.png";
-const string TWO_PATH_SMALL = "../res/number/small/2.png";
-const string THREE_PATH_SMALL = "../res/number/small/3.png";
-const string FOUR_PATH_SMALL = "../res/number/small/4.png";
-const string FIVE_PATH_SMALL = "../res/number/small/5.png";
-const string SIX_PATH_SMALL = "../res/number/small/6.png";
-const string SEVEN_PATH_SMALL = "../res/number/small/7.png";
-const string EIGHT_PATH_SMALL = "../res/number/small/8.png";
-const string NINE_PATH_SMALL = "../res/number/small/9.png";
-const string ZERO_PATH_SMALL = "../res/number/small/0.png";
+const string ONE_PATH_SMALL = "../assets/1.png";
+const string TWO_PATH_SMALL = "../assets/2.png";
+const string THREE_PATH_SMALL = "../assets/3.png";
+const string FOUR_PATH_SMALL = "../assets/4.png";
+const string FIVE_PATH_SMALL = "../assets/5.png";
+const string SIX_PATH_SMALL = "../assets/6.png";
+const string SEVEN_PATH_SMALL = "../assets/7.png";
+const string EIGHT_PATH_SMALL = "../assets/8.png";
+const string NINE_PATH_SMALL = "../assets/9.png";
+const string ZERO_PATH_SMALL = "../assets/0.png";
 
 // number folder large
-const string ONE_PATH_LARGE = "../res/number/large/1.png";
-const string TWO_PATH_LARGE = "../res/number/large/2.png";
-const string THREE_PATH_LARGE = "../res/number/large/3.png";
-const string FOUR_PATH_LARGE = "../res/number/large/4.png";
-const string FIVE_PATH_LARGE = "../res/number/large/5.png";
-const string SIX_PATH_LARGE = "../res/number/large/6.png";
-const string SEVEN_PATH_LARGE = "../res/number/large/7.png";
-const string EIGHT_PATH_LARGE = "../res/number/large/8.png";
-const string NINE_PATH_LARGE = "../res/number/large/9.png";
-const string ZERO_PATH_LARGE = "../res/number/large/0.png";
+const string ONE_PATH_LARGE = "../assets/1s.png";
+const string TWO_PATH_LARGE = "../assets/2s.png";
+const string THREE_PATH_LARGE = "../assets/3s.png";
+const string FOUR_PATH_LARGE = "../assets/4s.png";
+const string FIVE_PATH_LARGE = "../assets/5s.png";
+const string SIX_PATH_LARGE = "../assets/6s.png";
+const string SEVEN_PATH_LARGE = "../assets/7s.png";
+const string EIGHT_PATH_LARGE = "../assets/8s.png";
+const string NINE_PATH_LARGE = "../assets/9s.png";
+const string ZERO_PATH_LARGE = "../assets/0s.png";
 
 // sound folder
-const string BREATH_PATH = "../res/sound/sfx_breath.mp3";
-const string HIT_PATH = "../res/sound/sfx_bonk.wav";
-const string SOUND_GROUND_PATH = "../res/sound/background_sound.mp3";
+const string BREATH_PATH = "../assets/sfx_breath.mp3";
+const string HIT_PATH = "../assets/sfx_bonk.wav";
+const string SOUND_PICKELBALL_PATH = "../assets/background_sound.mp3";
+const string SOUND_TINHTU_PATH = "../assets/tinhtu.mp3";
+const string SOUND_MONO_PATH = "../assets/mono.mp3";
+const string SOUND_NIGHT_PATH = "../assets/dark.mp3";
+const string SOUND_NOEL_PATH = "../assets/noel.mp3";
 
 // data folder
-const string BEST_SCORE_DATA_FILE = "../res/data/bestScore.txt";
+const string BEST_SCORE_DATA_FILE = "../assets/bestScore.txt";
 
 // image/backgrounds folder
-const string PIPE_PATH = "../res/image/backgrounds/pipe.png";
+const string PIPE_PATH = "../assets/pipe.png";
 
-const string BACKGROUND_SNOW_PATH = "../res/image/backgrounds/snow_mode.jpg"; //Background path
-const string BACKGROUND_PATH = "../res/image/backgrounds/light_mode.png"; //Background path
-const string BACKGROUND_NIGHT_PATH = "../res/image/backgrounds/dark_mode.png"; //Background path
+const string BACKGROUND_SNOW_PATH = "../assets/snow_mode.jpg"; //Background path
+const string BACKGROUND_PATH = "../assets/light_mode.png"; //Background path
+const string BACKGROUND_NIGHT_PATH = "../assets/dark_mode.png"; //Background path
 
-const string MESSAGE_PATH = "../res/image/backgrounds/message.png"; // Message path
+const string MESSAGE_PATH = "../assets/message.png"; // Message path
 
-const string LAND_PATH = "../res/image/backgrounds/base_LM.png"; // Land path
-const string LAND_DM_PATH = "../res/image/backgrounds/base_DM.png"; // Land path
-const string LAND_NM_PATH = "../res/image/backgrounds/base_NM.png"; // Land path
+const string LAND_PATH = "../assets/base_LM.png"; // Land path
+const string LAND_DARK_PATH = "../assets/base_DM.png"; // Land path
+const string LAND_NOEL_PATH = "../assets/base_NM.png"; // Land path
 
 // image/button path
-const string RESUME_PATH = "../res/image/button/resume.png";
+const string RESUME_PATH = "../assets/resume.png";
 
-const string PAUSE_PATH = "../res/image/button/pause.png";
+const string PAUSE_PATH = "../assets/pause.png";
 
-const string NEXT_RIGHT_PATH = "../res/image/button/nextRight.png";
-const string NEXT_LEFT_PATH = "../res/image/button/nextLeft.png";
+const string NEXT_RIGHT_PATH = "../assets/nextRight.png";
+const string NEXT_LEFT_PATH = "../assets/nextLeft.png";
 
-const string SOUND_PATH = "../res/image/button/sound.png";
+const string SOUND_PATH = "../assets/sound.png";
+const string MUSIC_PATH = "../assets/music.png";
 
-const string REPLAY_PATH = "../res/image/button/replay.png"; // Replay path
+const string REPLAY_PATH = "../assets/replay.png"; // Replay path
 
-const string LIGHT_MODE= "../res/image/button/sun.png"; // Replay path
-const string DARK_MODE = "../res/image/button/moon.png"; // Replay path
-const string NOEL_MODE = "../res/image/button/noel.png"; // Replay path
+const string LIGHT_MODE= "../assets/sun.png"; // Replay path
+const string DARK_MODE = "../assets/moon.png"; // Replay path
+const string NOEL_MODE = "../assets/noel.png"; // Replay path
 
 // image/pets path
-const string BEE_PATH = "../res/image/pets/1.png";
-const string FISH_PATH = "../res/image/pets/2.png";
-const string DUCK_PATH = "../res/image/pets/3.png";
-const string FROGE_PATH = "../res/image/pets/4.png";
-const string BIRD_PATH = "../res/image/pets/5.png";
-const string START_PATH = "../res/image/pets/6.png";
-const string MONSTER_PATH = "../res/image/pets/7.png";
-const string VIRUS_PATH = "../res/image/pets/8.png";
-const string SHIBA_PATH = "../res/image/pets/9.png";
+const string BEE_PATH = "../assets/bee.png";
+const string FISH_PATH = "../assets/fish.png";
+const string DUCK_PATH = "../assets/duck.png";
+const string FROGE_PATH = "../assets/froge.png";
+const string BIRD_PATH = "../assets/bird.png";
+const string START_PATH = "../assets/start.png";
+const string MONSTER_PATH = "../assets/monster.png";
+const string VIRUS_PATH = "../assets/virus.png";
+const string SHIBA_PATH = "../assets/shiba.png";
 
 // image/tabs path
-const string GAMEOVER_PATH = "../res/image/tabs/gameover_NM.png";
+const string GAMEOVER_PATH = "../assets/gameover_NM.png";
 
-const string PAUSE_TAB_PATH = "../res/image/tabs/pauseTab_NM.png";
+const string PAUSE_TAB_PATH = "../assets/pauseTab_NM.png";
 
 // Medals path
-const string GOLD_PATH = "../res/medal/gold.png";
-const string SILVER_PATH = "../res/medal/silver.png";
-const string HONOR_PATH = "../res/medal/honor.png";
+const string GOLD_PATH = "../assets/gold.png";
+const string SILVER_PATH = "../assets/silver.png";
+const string HONOR_PATH = "../assets/honor.png";
 
 

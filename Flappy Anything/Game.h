@@ -52,6 +52,8 @@ public:
 
     void takeInput();
 
+    void renderLand(short mode);
+
     void display();
 
     void releaseGraphic();
@@ -93,6 +95,10 @@ public:
     bool changeTheme();
 
 	bool changePet();
+
+	bool changeMusic();
+
+	void nextMusic();
 
     void renderGameOver();
 
