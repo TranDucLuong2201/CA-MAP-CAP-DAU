@@ -113,4 +113,5 @@ public:
 private:
     const double scaleNumberS = 0.75;
     short int bestScore;
+    int landOffset = 0;
 };

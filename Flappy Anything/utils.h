@@ -4,11 +4,11 @@ using namespace std;
 
 // In game
 static const short int SCREEN_WIDTH = 560;
-static const short int SCREEN_HEIGHT = 760;
-static const short int PIPE_SPACE = 240;
+static const short int SCREEN_HEIGHT = 720;
+static const short int PIPE_SPACE = 220;
 static const short int TOTAL_PIPE = 4;
 static const short int PIPE_DISTANCE = 300;
-static const short int LAND_HEIGHT = 98;
+static const short int LAND_HEIGHT = 100;
 static const short int SHIBA_WIDTH = 50;
 static const short int SHIBA_HEIGHT = 35;
 

@@ -141,14 +141,14 @@ int main(int argc, char** argv)  // Fixed main function signature
             g.display();
         }
 
-        // Double game speed every 5 seconds
-        if (SDL_GetTicks() - lastSpeedIncrease >= 5000) {
+        // Double game speed every a seconds
+        if (SDL_GetTicks() - lastSpeedIncrease >= 1000) {
             frameDelay = max(1, frameDelay / 2); // Halve the frame delay to double the speed
             lastSpeedIncrease = SDL_GetTicks();
         }
 
-        // Change map every 20 seconds
-        if (SDL_GetTicks() - lastMapChange >= 20000) {
+        // Change map every 30 seconds
+        if (SDL_GetTicks() - lastMapChange >= 30000) {
             mode = (mode + 1) % 3; // Cycle through 0, 1, 2
             lastMapChange = SDL_GetTicks();
         }
@@ -161,3 +161,4 @@ int main(int argc, char** argv)  // Fixed main function signature
     }
     return 0;
 }
+

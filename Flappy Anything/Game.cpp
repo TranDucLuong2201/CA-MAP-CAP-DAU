@@ -497,7 +497,15 @@ void Game::renderLand(short mode)
 		image.Load(LAND_PATH, SCALE_VALUE);
 		break;
 	}
-	image.Render((SCREEN_WIDTH - image.getWidth()) / 2, SCREEN_HEIGHT - image.getHeight());
+
+	// Render the land with animation
+	landOffset -= 2; // Adjust the speed of the land animation
+	if (landOffset < -image.getWidth()) {
+		landOffset = 0;
+	}
+
+	image.Render(landOffset, SCREEN_HEIGHT - image.getHeight());
+	image.Render(landOffset + image.getWidth(), SCREEN_HEIGHT - image.getHeight());
 	image.free();
 }
 

@@ -7,24 +7,12 @@
       "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Doge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Land.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Land.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Land.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Land.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Sound.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Sound.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Sound.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,20 +23,40 @@
       "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Pipe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Lib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Lib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\assets\\bestScore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\assets\\bestScore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Pipe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Pipe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Doge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Doge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Lib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Lib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Lib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Lib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Land.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Land.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Land.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Land.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\assets\\bestScore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5751A514-F38C-4D4E-9FCB-07096BE3D0D5}|Flappy Anything\\Flappy Anything.vcxproj|solutionrelative:Flappy Anything\\assets\\bestScore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,141 +66,176 @@
       "DocumentGroups": [
         {
           "DockedWidth": 235,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "utils.h",
               "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\utils.h",
               "RelativeDocumentMoniker": "Flappy Anything\\utils.h",
               "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\utils.h",
               "RelativeToolTip": "Flappy Anything\\utils.h",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAYwGoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAmwGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-08T22:49:39.479Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
+              "Title": "Lib.h",
+              "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Lib.h",
+              "RelativeDocumentMoniker": "Flappy Anything\\Lib.h",
+              "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Lib.h",
+              "RelativeToolTip": "Flappy Anything\\Lib.h",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-17T05:34:22.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sound.cpp",
+              "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Sound.cpp",
+              "RelativeDocumentMoniker": "Flappy Anything\\Sound.cpp",
+              "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Sound.cpp",
+              "RelativeToolTip": "Flappy Anything\\Sound.cpp",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAiwKYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-09T17:38:46.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Game.cpp",
+              "RelativeDocumentMoniker": "Flappy Anything\\Game.cpp",
+              "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Game.cpp",
+              "RelativeToolTip": "Flappy Anything\\Game.cpp",
+              "ViewState": "AgIAAAkCAAAAAAAAAAAiwCUCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-09T17:36:14.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "bestScore.txt",
               "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\assets\\bestScore.txt",
               "RelativeDocumentMoniker": "Flappy Anything\\assets\\bestScore.txt",
               "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\assets\\bestScore.txt",
               "RelativeToolTip": "Flappy Anything\\assets\\bestScore.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-12-09T04:45:04.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "Pipe.h",
               "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Pipe.h",
               "RelativeDocumentMoniker": "Flappy Anything\\Pipe.h",
               "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Pipe.h",
               "RelativeToolTip": "Flappy Anything\\Pipe.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-08T23:29:28.136Z"
+              "WhenOpened": "2024-12-08T23:29:28.136Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Land.h",
               "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Land.h",
               "RelativeDocumentMoniker": "Flappy Anything\\Land.h",
               "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Land.h",
               "RelativeToolTip": "Flappy Anything\\Land.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-08T23:30:40.924Z"
+              "WhenOpened": "2024-12-08T23:30:40.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Land.cpp",
               "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Land.cpp",
               "RelativeDocumentMoniker": "Flappy Anything\\Land.cpp",
               "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Land.cpp",
               "RelativeToolTip": "Flappy Anything\\Land.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T21:21:43.401Z"
+              "WhenOpened": "2024-12-02T21:21:43.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "main.cpp",
               "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\main.cpp",
               "RelativeDocumentMoniker": "Flappy Anything\\main.cpp",
               "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\main.cpp",
               "RelativeToolTip": "Flappy Anything\\main.cpp",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAYwKIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAiwKAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-04T15:13:20.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "Game.h",
               "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Game.h",
               "RelativeDocumentMoniker": "Flappy Anything\\Game.h",
               "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Game.h",
               "RelativeToolTip": "Flappy Anything\\Game.h",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-02T18:28:10.088Z"
+              "WhenOpened": "2024-12-02T18:28:10.088Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Doge.h",
-              "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Doge.h",
-              "RelativeDocumentMoniker": "Flappy Anything\\Doge.h",
-              "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Doge.h",
-              "RelativeToolTip": "Flappy Anything\\Doge.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-02T20:57:23.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Sound.h",
               "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Sound.h",
               "RelativeDocumentMoniker": "Flappy Anything\\Sound.h",
               "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Sound.h",
               "RelativeToolTip": "Flappy Anything\\Sound.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-02T18:28:30.237Z"
+              "WhenOpened": "2024-12-02T18:28:30.237Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Lib.cpp",
               "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Lib.cpp",
               "RelativeDocumentMoniker": "Flappy Anything\\Lib.cpp",
               "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Lib.cpp",
               "RelativeToolTip": "Flappy Anything\\Lib.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwFEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-04T15:35:49.731Z"
+              "WhenOpened": "2024-12-04T15:35:49.731Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Pipe.cpp",
               "DocumentMoniker": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Pipe.cpp",
               "RelativeDocumentMoniker": "Flappy Anything\\Pipe.cpp",
               "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Pipe.cpp",
               "RelativeToolTip": "Flappy Anything\\Pipe.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwDoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-04T15:42:32.304Z"
+              "WhenOpened": "2024-12-04T15:42:32.304Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -208,7 +251,7 @@
               "RelativeDocumentMoniker": "Flappy Anything\\Doge.cpp",
               "ToolTip": "E:\\HCMUS\\OOP\\project\\sfml\\final project\\Flappy Anything\\Flappy Anything\\Doge.cpp",
               "RelativeToolTip": "Flappy Anything\\Doge.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAmwG0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-08T16:15:08.638Z",
               "EditorCaption": ""

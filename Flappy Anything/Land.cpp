@@ -39,7 +39,7 @@ void Land::render()
     }
     else
     {
-        posLand.getPos(0, SCREEN_HEIGHT - LAND_HEIGHT);
+        posLand.getPos(0, SCREEN_HEIGHT - LAND_HEIGHT+10);
         Render(posLand.x, posLand.y);
     }
 }
